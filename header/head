@@ -1,0 +1,28 @@
+// ==UserScript==
+// @name         {name}
+// @namespace    https://bilibili.com/
+// @version      {version}
+// @description  在未登录的情况下照常加载评论 | V5.3 修复因官方offset格式更新造成的无法加载评论的问题
+// @license      GPL-3.0
+// @author       DD1969
+// @author       jiang
+// @match        https://www.bilibili.com/video/*
+// @match        https://www.bilibili.com/bangumi/play/*
+// @match        https://t.bilibili.com/*
+// @match        https://www.bilibili.com/opus/*
+// @match        https://space.bilibili.com/*
+// @match        https://www.bilibili.com/read/cv*
+// @match        https://www.bilibili.com/festival*
+// @match        https://www.bilibili.com/list/*
+// @match        https://manga.bilibili.com/detail/mc*
+// @match        https://manga.bilibili.com/mc*
+// @icon         https://www.bilibili.com/favicon.ico
+// @require      https://update.greasyfork.org/scripts/510239/1454424/viewer.js
+// @require      https://update.greasyfork.org/scripts/475332/1250588/spark-md5.js
+// @require      https://update.greasyfork.org/scripts/512574/1464548/inject-bilibili-comment-style.js
+// @require      https://update.greasyfork.org/scripts/512576/1464552/inject-viewerjs-style.js
+// @grant        unsafeWindow
+// @grant        GM_registerMenuCommand
+// @grant        GM_getValue
+// @grant        GM_setValue
+// ==/UserScript==
