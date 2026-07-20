@@ -6,6 +6,9 @@ import { log } from './util/logger';
   // no need to continue this script if user already logged in
   if (document.cookie.includes('DedeUserID')) return;
 
+  // 脚本在用户的 投稿 页面时，会导致用户的投稿视频加载不出来
+  if (/\/\d+\/upload\/video/.test(location.pathname)) return;
+
   // patch for 'unsafeWindow is not defined'
   const global = typeof unsafeWindow === 'undefined' ? window : unsafeWindow;
 

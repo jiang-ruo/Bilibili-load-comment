@@ -25,3 +25,4 @@ dist-ssr
 
 temp/Tampermonkey/sync/*.js
 temp/Tampermonkey/sync/*.json
+.mise.local.toml
